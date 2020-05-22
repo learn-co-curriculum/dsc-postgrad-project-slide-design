@@ -1,31 +1,34 @@
 # Project Slide Design
 
+## Introduction
+
 If the goal of your presentationn is to convince an employer of your credability, you do not want anything distracting from your work. Design aspects can be distracting, particularly:
 - inconsistencies in style
 - heavy text & clutter
 - messy visualizations
 
 ## Learning goals
-In this lesson, you will:
 
+In this lesson, you will:
 - identify what slide components count as "style"
 - to describe the impact of a slide template
 - declutter slides by removing excessive text and redundant visualizations
 - define the characteristics of a "complete" visualization
 
 ## Identify what slide components count as "style"
+
 The goal of your presentation is to convey a _professional_ **style**. A _professional_ presentation style demonstrates that you pay attention to detail and are aware how the _design_ of your slides will impact the viewer as much a _content_. Font choices, font consistency, font size consistency, choice of colors, and choice of graphics all contribute to the design and style of your presentation. Your **choices** and **consistency** can either enhance or distract from your material. 
-**Challenges** Most slides have unprofessional style: cluttered, text- or jargon-heavy, visuals that are dense, unclear or unnecessary
 
 ### The messy example
+The two slides below have a few examples of inconsistent style. 
 
+[numbered picture]
 
-### 
-**Goal**: All presentation slides have a professional style.
+1. Font choice
+2. Excessive colors
+3. Inconsistent choices
 
-Design: How to find and use templates, how to set up slides cleanly, and how to think through making effective visualizations  
-[SlideCarnival](https://www.slidescarnival.com/) has many great [templates](https://www.slidescarnival.com/thaliard-free-presentation-template/2189)
-
+A simple solution is to use a _slide template_. There are great websites such as [SlideCarnival](https://www.slidescarnival.com/), that provide professional-quality [templates](https://www.slidescarnival.com/thaliard-free-presentation-template/2189) made by designers.  A good template keeps the font, sizes, and color schemes consistent. Since few data scientists also have a degree in design, using the right template saves your presentation from lookinng unprofessional.
 
 
 ## Declutter slides by removing excessive text and redundant visualizations
@@ -39,9 +42,26 @@ On the slide [X] of the messy presentation[or maybe just "in this sample visuali
 
 ### The identified issues
 
+As you can see in the numbered picture, the visualization(s) has the following issues:
+
+[visual, with at least these issues]
+
+- using the default seaborn rainbow colow-scheme. Color should be informative and a labeled bar chart is not enhanced with colors. A  proper use of color would be to use it  to highlight *one* bar to differentiate it from the rest.
+- the y-axis is in scientific notation and not interpretable
+- axis labels are either missing or the raw-variable names rather than a nice label
+
+[Visual A] was created using the following code:
+```
+
+example code
+```
 
 ### What every visual should have
-Challenges: A lot of text or jargon
-Solution: Less text, more visuals
+
 
 Checklist of how we went from messy to polished
+
+### Enhancing the viualization
+
+The [Python Graph Gallery](https://python-graph-gallery.com/) is a great resource for finding the exact code to enhance a visualization created using matplotlib or seaborn. The [matplotlib documentation](https://matplotlib.org/) also has plenty of code examples and the [seaborn graph gallery](https://seaborn.pydata.org/examples/index.html) is also a useful resource.
+
