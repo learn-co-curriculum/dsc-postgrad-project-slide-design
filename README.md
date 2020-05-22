@@ -32,8 +32,27 @@ A simple solution is to use a _slide template_. There are great websites such as
 
 
 ## Declutter slides by removing excessive text and redundant visualizations
-Challenges: Visualizations are a mess
-Solution: Checklist of things to think about, Python GraphViz link
+
+Quickly in five seconds or less, review the following two slides:
+
+[block of text slide and slide with 4 visualizations]
+
+Time's up! What was the main point of each slide? What was your initial response to those slides?
+
+### Problem with Slide A: Too much text
+Not everything needs to be _in_ the slides themselves. Slides are not expected to stand alone. Slides are a supplement to you presenting your work. **You** are the star, not your presentation materials.  
+
+Remember, the rule one point per slide. Additional information that you plan on sharing verballly, or wish to have available for later readers, should go in the slide notes.  
+
+### Probllem with Slide B: too many visualization
+Which visualization in Slide B is most important? What is the key point this slide is trying to make? A good rule to follow is one visualization per slide and the slide should take up at least 60% of the slide's realestate. 
+
+Whitespace, the are that **is not** filled with text or images is just as important as the information being conveyed. An overcrowded slide is unappealing to the eye and off-putting to viewers.
+
+Review the updated slides below and compare them to their original versions:
+
+
+As you can see, having **less** on the slide is **more** appealing to review. When in doubt about having extra information on a slide, put it in the rotes and include it in your delivery.
 
 ## Define the characteristics of a "complete" visualization
 
@@ -69,11 +88,11 @@ David McCandless, from the website [Information is Beautiful](https://www.inform
 
 every visualization should have:
 
-- [ ] A point. The visualization is relevant to the analysis and fits into the narrative of the presentation. The most **important** part of the visualization should be highlighted. Is this one group different from the others? Where does this model _not_ perform well?
-- [ ] Everything appropriately labeled. Each axis, a legend, a title, they should all be identified and labelled appropriately.
-- [ ] Axis numbers and scales that people can understand. Dolllars should have a $ in front of them. Percents should be formated as 50% rather than 0.5. Scientific notation has no business on 99% of data visualizations produced by Flatiron School graduates
-- [ ] Readable text. Text is not too small and does not overlap with other text. All text is _meanginful_, so am axis labe; should read "House Sale Price" rather than "salesprice."
-- [ ] Been saved as a png or jpeg and then inserted into your presentation. Using a screenshot can produce fuzzy and grainy resolution if the image needs to scaled.
+- [ ] **A point.** The visualization is relevant to the analysis and fits into the narrative of the presentation. The most **important** part of the visualization should be highlighted. Is this one group different from the others? Where does this model _not_ perform well?
+- [ ] **Everything appropriately labeled**. Each axis, a legend, a title, they should all be identified and labelled appropriately.
+- [ ] **Numbers people can understand**. Dolllars should have a $ in front of them. Percents should be formated as 50% rather than 0.5. Scientific notation has no business on 99% of data visualizations produced by Flatiron School graduates
+- [ ] **Readable text**. Text is not too small and does not overlap with other text. All text is _meanginful_, so am axis labe; should read "House Sale Price" rather than "salesprice."
+- [ ] **Been saved to file** as a png or jpeg and then inserted into your presentation. Using a screenshot can produce fuzzy and grainy resolution if the image needs to scaled.
 
 [Lindsey, did I miss anything?]
 
@@ -92,4 +111,4 @@ more code
 
 ## Summary:
 
-Small changes can have a big impact on the profesional quality of your slide design. There are many resources out there to help your slides be more consistent, polished, and informative.
+Small changes can have a big impact on the profesional quality of your slide design. There are many resources out there to help your slides be more consistent, polished, and informative. [Lindsey - feel free to add here if you think i missed something]
