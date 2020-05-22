@@ -38,6 +38,9 @@ Solution: Checklist of things to think about, Python GraphViz link
 ## Define the characteristics of a "complete" visualization
 
 ### Slide review:
+
+[Lindsey - review text below]
+
 On the slide [X] of the messy presentation[or maybe just "in this sample visualization from the messy presentation and show image], there are 4 aspects that if fixed, would enhance the credibility of this presentation. Take a moment to see if you can identify what is missing from this visualization.
 
 ### The identified issues
@@ -58,10 +61,35 @@ example code
 
 ### What every visual should have
 
+David McCandless, from the website [Information is Beautiful](https://www.informationisbeautiful.net/), in his 2014 book [Knowledge is Beautiful](https://informationisbeautiful.net/books/) that a quality visualization contains four ellements: information, function, visual form, and story.
 
-Checklist of how we went from messy to polished
+![quall-viz](https://infobeautiful4.s3.amazonaws.com/2015/05/2552_What-Makes-a-Good-Infoviz-frame01.png)
+
+[Lore - how else do i need to cite this?]
+
+every visualization should have:
+
+- [ ] A point. The visualization is relevant to the analysis and fits into the narrative of the presentation. The most **important** part of the visualization should be highlighted. Is this one group different from the others? Where does this model _not_ perform well?
+- [ ] Everything appropriately labeled. Each axis, a legend, a title, they should all be identified and labelled appropriately.
+- [ ] Axis numbers and scales that people can understand. Dolllars should have a $ in front of them. Percents should be formated as 50% rather than 0.5. Scientific notation has no business on 99% of data visualizations produced by Flatiron School graduates
+- [ ] Readable text. Text is not too small and does not overlap with other text. All text is _meanginful_, so am axis labe; should read "House Sale Price" rather than "salesprice."
+- [ ] Been saved as a png or jpeg and then inserted into your presentation. Using a screenshot can produce fuzzy and grainy resolution if the image needs to scaled.
+
+[Lindsey, did I miss anything?]
+
+* For further reading on what makes a great data visualization, David McCandless also provides a great [recommended reading list](https://informationisbeautiful.net/visualizations/dataviz-books/) of data visualization books.
 
 ### Enhancing the viualization
 
 The [Python Graph Gallery](https://python-graph-gallery.com/) is a great resource for finding the exact code to enhance a visualization created using matplotlib or seaborn. The [matplotlib documentation](https://matplotlib.org/) also has plenty of code examples and the [seaborn graph gallery](https://seaborn.pydata.org/examples/index.html) is also a useful resource.
 
+Compare the updated visualization code used to enhance Visual A to create Visual B.
+
+```
+more code
+```
+[Visual B]
+
+## Summary:
+
+Small changes can have a big impact on the profesional quality of your slide design. There are many resources out there to help your slides be more consistent, polished, and informative.
