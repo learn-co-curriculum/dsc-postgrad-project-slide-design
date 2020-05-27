@@ -2,113 +2,158 @@
 
 ## Introduction
 
-If the goal of your presentationn is to convince an employer of your credability, you do not want anything distracting from your work. Design aspects can be distracting, particularly:
+If the goal of your presentation is to convince an employer of your credibility, you do not want anything distracting from your work. Design aspects can be distracting, particularly:
+
 - inconsistencies in style
-- heavy text & clutter
+- heavy text and clutter
 - messy visualizations
 
-## Learning goals
+## Learning Goals
 
 In this lesson, you will:
+
 - identify what slide components count as "style"
-- to describe the impact of a slide template
+- describe the impact of a slide template
 - declutter slides by removing excessive text and redundant visualizations
 - define the characteristics of a "complete" visualization
 
-## Identify what slide components count as "style"
+## "Style" Components
 
-The goal of your presentation is to convey a _professional_ **style**. A _professional_ presentation style demonstrates that you pay attention to detail and are aware how the _design_ of your slides will impact the viewer as much a _content_. Font choices, font consistency, font size consistency, choice of colors, and choice of graphics all contribute to the design and style of your presentation. Your **choices** and **consistency** can either enhance or distract from your material. 
+One goal of your presentation is to convey a _professional presentation style_. A professional presentation style demonstrates that you pay attention to details and are aware of how the _design_ of your slides will impact the viewer as much as the _content_. Fonts (including font size and consistency), colors, and visuals (including both photos and visualizations you build) all contribute to the design and style of your presentation. These choices can either enhance or distract from your material. 
 
-### The messy example
-The two slides below have a few examples of inconsistent style. 
+### Identifying Style Problems
 
-[numbered picture]
+The slide below has a few examples of inconsistent style:
 
-1. Font choice
-2. Excessive colors
-3. Inconsistent choices
+![example with style problems](images/styleproblems.png)
 
-A simple solution is to use a _slide template_. There are great websites such as [SlideCarnival](https://www.slidescarnival.com/), that provide professional-quality [templates](https://www.slidescarnival.com/thaliard-free-presentation-template/2189) made by designers.  A good template keeps the font, sizes, and color schemes consistent. Since few data scientists also have a degree in design, using the right template saves your presentation from lookinng unprofessional.
+Beyond any problems in content, this example slide showcases a few inconsistent style problems:
 
+- Multiple fonts
+- Confusing use of colors
+- Fluctuating font size 
+- Distracting background (makes text harder to read)
 
-## Declutter slides by removing excessive text and redundant visualizations
+A simple solution is to use a _slide template_. There are great websites such as [SlideCarnival](https://www.slidescarnival.com/), that provide professional-quality [templates](https://www.slidescarnival.com/thaliard-free-presentation-template/2189) made by designers that integrate easily into Google Slides or other presentation tools. A good template keeps the font choices, font sizes, and color schemes consistent. Since few data scientists also have a degree in design, using the right template saves your presentation from looking unprofessional.
 
-Quickly in five seconds or less, review the following two slides:
+## Decluttering Slides 
 
-[block of text slide and slide with 4 visualizations]
+Quickly, in five seconds or less, review the following two slides:
+
+#### A) 
+
+![example slide with too much text](images/a_toomuchtext.png)
+
+#### B)
+
+![example slide with too many visualizations](images/b_toomanyvisuals.png)
 
 Time's up! What was the main point of each slide? What was your initial response to those slides?
 
-### Problem with Slide A: Too much text
+### Problem with Slide A: Too Much Text
+
 Not everything needs to be _in_ the slides themselves. Slides are not expected to stand alone. Slides are a supplement to you presenting your work. **You** are the star, not your presentation materials.  
 
-Remember, the rule one point per slide. Additional information that you plan on sharing verballly, or wish to have available for later readers, should go in the slide notes.  
+Remember, the rule is one key point per slide. Additional information that you plan on sharing verbally, or wish to have available for later readers, should go in the slide notes which can be saved and shared in PDF versions of your presentations.
 
-### Probllem with Slide B: too many visualization
-Which visualization in Slide B is most important? What is the key point this slide is trying to make? A good rule to follow is one visualization per slide and the slide should take up at least 60% of the slide's realestate. 
+### Problem with Slide B: Too Many Visualizations
 
-Whitespace, the are that **is not** filled with text or images is just as important as the information being conveyed. An overcrowded slide is unappealing to the eye and off-putting to viewers.
+Which visualization in Slide B is most important? What is the key point this slide is trying to make? A good rule to follow is one visualization per slide, and the visualization should take up at least 60% of the slide's real estate. 
+
+Whitespace that **is not** filled with text or images is just as important as the information being conveyed. An overcrowded slide is unappealing to the eye and off-putting to viewers.
 
 Review the updated slides below and compare them to their original versions:
 
+#### A)
 
-As you can see, having **less** on the slide is **more** appealing to review. When in doubt about having extra information on a slide, put it in the rotes and include it in your delivery.
+![example next steps slide with text consolidated into bullet points](images/a_improved.png)
 
-## Define the characteristics of a "complete" visualization
+#### B)
 
-### Slide review:
+![example slide with a single purposeful visual](images/b_improved.png)
 
-[Lindsey - review text below]
+As you can see, having **less** on the slide is **more** appealing to review. When in doubt about having extra information on a slide, put it in the notes and include it in your delivery.
 
-On the slide [X] of the messy presentation[or maybe just "in this sample visualization from the messy presentation and show image], there are 4 aspects that if fixed, would enhance the credibility of this presentation. Take a moment to see if you can identify what is missing from this visualization.
+## "Complete" Visualization
 
-### The identified issues
+Visualizations for presentations work a little differently than visualizations you create for your own use, and should be held to pretty high standards. If you're using a visualization you create in a presentation, it should work to make a key point and should be stylized not only to match your presentation template but also to stand on its own.
 
-As you can see in the numbered picture, the visualization(s) has the following issues:
+### Elements of a Complete Visualization
 
-[visual, with at least these issues]
-
-- using the default seaborn rainbow colow-scheme. Color should be informative and a labeled bar chart is not enhanced with colors. A  proper use of color would be to use it  to highlight *one* bar to differentiate it from the rest.
-- the y-axis is in scientific notation and not interpretable
-- axis labels are either missing or the raw-variable names rather than a nice label
-
-[Visual A] was created using the following code:
-```
-
-example code
-```
-
-### What every visual should have
-
-David McCandless, from the website [Information is Beautiful](https://www.informationisbeautiful.net/), in his 2014 book [Knowledge is Beautiful](https://informationisbeautiful.net/books/) that a quality visualization contains four ellements: information, function, visual form, and story.
+David McCandless, from the website [Information is Beautiful](https://www.informationisbeautiful.net/), wrote in his 2014 book [Knowledge is Beautiful](https://informationisbeautiful.net/books/) that a quality visualization contains four elements: **information, function, visual form, and story**.
 
 ![quall-viz](https://infobeautiful4.s3.amazonaws.com/2015/05/2552_What-Makes-a-Good-Infoviz-frame01.png)
 
-[Lore - how else do i need to cite this?]
+More specifically, visualizations built for presentations should:
 
-every visualization should have:
+- [ ] **Be Purposeful**. The visualization must be relevant to the analysis and fit into the narrative of the presentation. The most **important** part of the visualization should be highlighted. Is this one group different from the others? Where does this model _not_ perform well?
+- [ ] **Be Appropriately Labeled**. Each visualization should have a title, a legend, and labeled axes.
+- [ ] **Have Readable Numbers**. Dollars should have a $ in front of them. Percents should be formated as 50% rather than 0.5. Scientific notation has no business on 99% of data visualizations, especially in presentations.
+- [ ] **Have Readable Text**. Text should be large enough to read and not overlap with other text. All text should be _meaningful_ and _immediately understandable_ by your audence, so the axis label should read "House Sale Price" rather than "salesprice" - **no variable names with CamelCase or underscores!**
+- [ ] **Be Saved to File**. Using a screenshot can produce fuzzy and grainy resolution if the image needs to scaled. Instead, use `savefig` or whichever appropriate command to save your images directly from your notebook.
 
-- [ ] **A point.** The visualization is relevant to the analysis and fits into the narrative of the presentation. The most **important** part of the visualization should be highlighted. Is this one group different from the others? Where does this model _not_ perform well?
-- [ ] **Everything appropriately labeled**. Each axis, a legend, a title, they should all be identified and labelled appropriately.
-- [ ] **Numbers people can understand**. Dolllars should have a $ in front of them. Percents should be formated as 50% rather than 0.5. Scientific notation has no business on 99% of data visualizations produced by Flatiron School graduates
-- [ ] **Readable text**. Text is not too small and does not overlap with other text. All text is _meanginful_, so am axis labe; should read "House Sale Price" rather than "salesprice."
-- [ ] **Been saved to file** as a png or jpeg and then inserted into your presentation. Using a screenshot can produce fuzzy and grainy resolution if the image needs to scaled.
+For further reading on what makes a great data visualization, David McCandless also provides a great [recommended reading list](https://informationisbeautiful.net/visualizations/dataviz-books/) of data visualization books.
 
-[Lindsey, did I miss anything?]
+### Identifying Visualization Problems
 
-* For further reading on what makes a great data visualization, David McCandless also provides a great [recommended reading list](https://informationisbeautiful.net/visualizations/dataviz-books/) of data visualization books.
+In this sample visualization, there are 4 aspects that, if fixed, would enhance the credibility of this presentation. Take a moment to see if you can identify what is missing:
 
-### Enhancing the viualization
+![example visualization with issues](images/examplevisualization.png)
 
-The [Python Graph Gallery](https://python-graph-gallery.com/) is a great resource for finding the exact code to enhance a visualization created using matplotlib or seaborn. The [matplotlib documentation](https://matplotlib.org/) also has plenty of code examples and the [seaborn graph gallery](https://seaborn.pydata.org/examples/index.html) is also a useful resource.
+As you can see in the numbered picture below, the visualizations has the following issues:
 
-Compare the updated visualization code used to enhance Visual A to create Visual B.
+![example visualization, now with numbered issues](images/examplevisualization_numberedissues.png)
 
+1. The y-axis is not immediately interpretable
+2. Axis labels and legend use raw-variable names rather than a nice label
+3. Color is not informative or easily distinguishable
+
+The key with a great presentation visual is that it is immediately interpretable - your audience should not need to guess what the numbers mean, or interpret a variable name, or squint to distinguish between colors.
+
+### Enhancing Visualizations
+
+The [Python Graph Gallery](https://python-graph-gallery.com/) is a great resource for finding the exact code to enhance a visualization created using matplotlib or seaborn. The [matplotlib documentation](https://matplotlib.org/) also has plenty of code examples and the [seaborn graph gallery](https://seaborn.pydata.org/examples/index.html) can be a useful resource.
+
+Below, review the differences between the code used to generate the earlier example and the code used to generate a much more polished visualization:
+
+#### Early Example: 
+![example visualization with issues](images/examplevisualization.png)
+
+```python
+# code here for early visual
 ```
-more code
-```
-[Visual B]
 
-## Summary:
+#### Polished Example:
 
-Small changes can have a big impact on the profesional quality of your slide design. There are many resources out there to help your slides be more consistent, polished, and informative. [Lindsey - feel free to add here if you think i missed something]
+![example visualization, but polished](images/polishedvisualization.png)
+
+```python
+fig = plt.figure(figsize=(16, 10), dpi=80) 
+# Creates one subplot within our figure and uses the classes fig and ax
+fig, ax = plt.subplots(figsize=(16, 10), dpi= 80, facecolor='w', edgecolor='k')
+# Uses hue to add an extra element, and changes the palette
+chart = sns.scatterplot(x='GrLivArea', y='SalePrice', data = test,
+                        hue=test.OverallQual.values, legend='full', alpha = .7,
+                        palette="BrBG")
+
+# Setting axis ticks and formulating numbers
+ax.yaxis.set_major_locator(ticker.MultipleLocator(100000.00))
+ax.yaxis.set_minor_locator(ticker.MultipleLocator(50000))
+ax.yaxis.set_major_formatter(ticker.StrMethodFormatter('${x:,.0f}'))
+ax.xaxis.set_major_locator(ticker.MultipleLocator(500))
+ax.xaxis.set_minor_locator(ticker.MultipleLocator(100))
+
+# Naming the visual and each axis
+fig.suptitle("The Positive Correlations between Home Sale Price,\n Sq Footage and Quality Rating", fontsize=26)
+ax.set_xlabel("Total Square Feet")
+ax.set_ylabel("Sale Price")
+
+# Creating the legend
+ax.get_legend().set_title("Overall Quality Ranking")
+
+plt.tight_layout()
+``` 
+
+## Summary
+
+Small changes can have a big impact on the profesional quality of your slide design. There are many resources out there to help your slides be more consistent, polished, and informative. Utilize them!
