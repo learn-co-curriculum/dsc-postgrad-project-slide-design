@@ -106,9 +106,10 @@ As you can see in the numbered picture below, the visualizations has the followi
 
 1. The y-axis is not immediately interpretable
 2. Axis labels and legend use raw-variable names rather than a nice label
-3. Color is not informative or easily distinguishable
+3. Legend does not use all the categories
+4. Default color is not informative or easily distinguishable
 
-The key with a great presentation visual is that it is immediately interpretable - your audience should not need to guess what the numbers mean, or interpret a variable name, or squint to distinguish between colors.
+The key with a great presentation visual is that it is immediately interpretable - your audience should not need to guess what the numbers or colors mean, or interpret a variable name, or squint to distinguish between colors.
 
 ### Enhancing Visualizations
 
@@ -120,7 +121,11 @@ Below, review the differences between the code used to generate the earlier exam
 ![example visualization with issues](images/examplevisualization.png)
 
 ```python
-# code here for early visual
+plt.figure(figsize=(16, 10)) 
+sns.scatterplot(x='GrLivArea', y='SalePrice', data = df, hue='OverallQual')
+plt.title("The Positive Correlations between Home Sale Price,\n Sq Footage and Quality Rating", fontsize=26)
+plt.tight_layout()
+plt.show()
 ```
 
 #### Polished Example:
