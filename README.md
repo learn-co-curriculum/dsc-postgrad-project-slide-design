@@ -8,9 +8,9 @@ If the goal of your presentation is to convince an employer of your credibility,
 - heavy text and clutter
 - messy visualizations
 
-## Learning Goals
+## Objectives
 
-In this lesson, you will:
+You will be able to:
 
 - identify what slide components count as "style"
 - describe the impact of a slide template
