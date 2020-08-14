@@ -25,7 +25,7 @@ One goal of your presentation is to convey a _professional presentation style_. 
 
 The slide below has a few examples of inconsistent style:
 
-![example with style problems](images/styleproblems.png)
+![example with style problems](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/styleproblems.png)
 
 Beyond any problems in content, this example slide showcases a few inconsistent style problems:
 
@@ -42,11 +42,11 @@ Quickly, in five seconds or less, review the following two slides:
 
 #### A) 
 
-![example slide with too much text](images/a_toomuchtext.png)
+![example slide with too much text](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/a_toomuchtext.png)
 
 #### B)
 
-![example slide with too many visualizations](images/b_toomanyvisuals.png)
+![example slide with too many visualizations](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/b_toomanyvisuals.png)
 
 Time's up! What was the main point of each slide? What was your initial response to those slides?
 
@@ -66,11 +66,11 @@ Review the updated slides below and compare them to their original versions:
 
 #### A)
 
-![example next steps slide with text consolidated into bullet points](images/a_improved.png)
+![example next steps slide with text consolidated into bullet points](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/a_improved.png)
 
 #### B)
 
-![example slide with a single purposeful visual](images/b_improved.png)
+![example slide with a single purposeful visual](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/b_improved.png)
 
 As you can see, having **less** on the slide is **more** appealing to review. When in doubt about having extra information on a slide, put it in the notes and include it in your delivery.
 
@@ -98,11 +98,11 @@ For further reading on what makes a great data visualization, David McCandless a
 
 In this sample visualization, there are 4 aspects that, if fixed, would enhance the credibility of this presentation. Take a moment to see if you can identify what is missing:
 
-![example visualization with issues](images/examplevisualization.png)
+![example visualization with issues](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/examplevisualization.png)
 
 As you can see in the numbered picture below, the visualizations has the following issues:
 
-![example visualization, now with numbered issues](images/examplevisualization_numberedissues.png)
+![example visualization, now with numbered issues](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/examplevisualization_numberedissues.png)
 
 1. The y-axis is not immediately interpretable
 2. Axis labels and legend use raw-variable names rather than a nice label
@@ -118,7 +118,7 @@ The [Python Graph Gallery](https://python-graph-gallery.com/) is a great resourc
 Below, review the differences between the code used to generate the earlier example and the code used to generate a much more polished visualization:
 
 #### Early Example: 
-![example visualization with issues](images/examplevisualization.png)
+![example visualization with issues](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/examplevisualization.png)
 
 ```python
 plt.figure(figsize=(16, 10)) 
@@ -130,7 +130,7 @@ plt.show()
 
 #### Polished Example:
 
-![example visualization, but polished](images/polishedvisualization.png)
+![example visualization, but polished](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-project-slide-design/master/images/polishedvisualization.png)
 
 ```python
 fig = plt.figure(figsize=(16, 10), dpi=80) 
